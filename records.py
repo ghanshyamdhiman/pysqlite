@@ -3,7 +3,11 @@
 import sqlite3
 
 #conn = sqlite3.connect('test.db')
-conn = sqlite3.connect('pysqlite.ghanshyamdhiman.repl.co/db/test.db')
+#conn = sqlite3.connect('pysqlite.ghanshyamdhiman.repl.co/db/test.db')
+#conn = sqlite3.connect('https://pysqlite.ghanshyamdhiman.repl.co/db/test.db')
+#conn = sqlite3.connect('pysqlite.ghanshyamdhiman.repl.co/test.db')
+conn = sqlite3.connect('192.168.0.26/test.db')
+
 print("Opened database successfully")
 
 cursor = conn.execute("SELECT id, name, address, salary from COMPANY")
