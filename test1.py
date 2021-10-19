@@ -7,14 +7,14 @@ rm_host = 'localhost'
 
 mydb = mysql.connector.connect(
   host=rm_host,
-  user="user1",
-  password="user123",
+  user="root",
+  password="Gsd@12345",
   database="testdb1"
 )
 
 mycursor = mydb.cursor()
 
-mycursor.execute("SELECT * FROM products")
+mycursor.execute("SELECT * FROM testtbl1")
 
 myresult = mycursor.fetchall()
 
