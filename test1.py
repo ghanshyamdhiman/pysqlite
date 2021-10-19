@@ -1,3 +1,5 @@
+
+#https://dev.mysql.com/doc/mysql-installation-excerpt/5.6/en/docker-mysql-getting-started.html
 import mysql.connector
 
 rm_host = 'localhost'
